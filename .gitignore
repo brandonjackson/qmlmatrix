@@ -1,0 +1,25 @@
+# OS X
+.DS_Store
+
+# Vim
+.*.swp
+.*.swo
+*.vim
+
+# Qt
+Makefile
+Makefile.Debug
+Makefile.Release
+*.o
+*~
+core
+*.core
+qrc_*.cpp
+moc_*.cpp
+.qmake.stash
+*.app
+*.qm
+*.pro.user
+test-suite
+test-suite.dSYM
+generated
