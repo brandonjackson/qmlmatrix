@@ -1,5 +1,11 @@
 #!/usr/bin/make -f
 
+#
+# FIXME: libqt5all-dev package should resolve binary paths
+#
+QT5PATH=/usr/local/qt5/bin
+export PATH := $(PATH):$(QT5PATH)
+
 %:
 	dh $@
 
